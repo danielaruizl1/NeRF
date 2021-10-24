@@ -30,7 +30,7 @@ You will train a low-res (due to computational resources) `lego` NeRF in the fol
 ```
 CUDA_VISIBLE_DEVICES=x taskset -c n-m python run_nerf.py --config configs/lego.txt
 ```
-After training for 50k iterations (~3-4 hours on a single GPU), you can find the resulting video at `logs/lego_test/lego_test_spiral_100000_rgb.mp4`.
+After training for 50k iterations (~3-4 hours on a single GPU), you can find the resulting video at `logs/lego_test/lego_test_spiral_50000_rgb.mp4`.
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/7057863/78473103-9353b300-7770-11ea-98ed-6ba2d877b62c.gif" />
