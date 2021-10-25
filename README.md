@@ -14,7 +14,7 @@ In this section you will be completing the code according to the explanations gi
 
 Now we present a list of the TODO's you have to complete in their respective order and the file in which they are located (Location).
 
-TODO 1 : Define K as the camera parameters matrix. Location: run_nerf.py  
+TODO 1 : Define K as the intrinsic matrix. Location: run_nerf.py  
 
 TODO 2 : Report the functionality of get_embedder. Location: run_nerf.py  
 
