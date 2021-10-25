@@ -14,13 +14,19 @@ In this section you will be completing the code according to the explanations gi
 
 Now we present a list of the TODO's you have to complete in their respective order and the file in which they are located (Location).
 
-TODO 1 : Define K as the camera parameters matrix. Location: run_nerf.py 
-TODO 2 : Report the functionality of get_embedder. Location: run_nerf.py
-TODO 3 : Discuss: Why do we call the function get_embedder again? How did the parameters vary this time? Relate your answer to the NeRF paper. Location: run_nerf.py
-TODO 4 : Complete the None´s to instantiate the fully connected network of NeRF. Location: run_nerf_helpers.py. In your report justify the modifications you made.
-TODO 5 : Complete the None´s to instantiate the fully connected network of NeRF. Location: run_nerf_helpers.py. In your report justify the modifications you made.
-TODO 6 : Complete the fine network parameters according to the Coarse implementation. Location: run_nerf.py
-TODO 7 : Complete the optimizers parameters (learning rate, beta_1, beta_2). Answer: What is the role of these betas in the Adam optimizer? Location: run_nerf.py
+TODO 1 : Define K as the camera parameters matrix. Location: run_nerf.py  
+
+TODO 2 : Report the functionality of get_embedder. Location: run_nerf.py  
+
+TODO 3 : Discuss: Why do we call the function get_embedder again? How did the parameters vary this time? Relate your answer to the NeRF paper. Location: run_nerf.py  
+
+TODO 4 : Complete the None´s to instantiate the fully connected network of NeRF. Location: run_nerf_helpers.py. In your report justify the modifications you made.  
+
+TODO 5 : Complete the None´s to instantiate the fully connected network of NeRF. Location: run_nerf_helpers.py. In your report justify the modifications you made.  
+
+TODO 6 : Complete the fine network parameters according to the Coarse implementation. Location: run_nerf.py  
+
+TODO 7 : Complete the optimizers parameters (learning rate, beta_1, beta_2). Answer: What is the role of these betas in the Adam optimizer? Location: run_nerf.py  
 
 Finally, answer in which Color Space are the inputs of the neural network. Why do you think this Color space is used? Discuss about its importance. In the load_blender.py (load_blender_data function) you will find a hint.
 
