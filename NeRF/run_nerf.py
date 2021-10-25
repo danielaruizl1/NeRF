@@ -626,7 +626,7 @@ def train():
     hwf = [H, W, focal]
 
     if K is None:
-        # TODO 1: define K as a numpy array keeping in mind that this matrix is precisely the camera matrix, 
+        # TODO 1: define K as a numpy array keeping in mind that this matrix is precisely the intrinsic matrix, 
         # as explained in class 
         # Hint: The entries depend on H, W and the focal variables just defined 
         K = np.array([None])
