@@ -89,6 +89,6 @@ This command will run the `mutant` experiment. Remember to exchange this .txt if
 ## Part 4: Metrics
 Finally, to quantitatively evaluate model run the `metrics.py` file. Report your results in the report and discuss about it. 
 
-**Please, push your _.mp4_ files to the repository so that we can observe your qualitative results. **
+**Please, push your _.mp4_ files to the repository so that we can observe your qualitative results.**
 
 
