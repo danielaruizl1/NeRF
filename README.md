@@ -55,7 +55,7 @@ For the bonus vary a hyperparameter of the NeRF architecture in the argparser (e
 
 In your report discuss about how should the implementation of the D-NeRF architecture should vary in comparison to the NeRF one (previous section).
 
-## Part 3: Installation
+## Part 0: Installation
 Run the following commands:
 
 ```
@@ -69,7 +69,7 @@ pip install .
 cd ..
 ```
 
-## Render Video
+## Part 1: Render Video
 To render the video run the following lines of code,
 ```
 conda activate dnerf
@@ -79,14 +79,14 @@ python run_dnerf.py --config configs/mutant.txt
 ```
 You can exchange the *mutant.txt* for the .txt file of your preference. Choose the object you would like to render and exists in the configs folder.
 
-## Test
+## Part 2: Test
 Now run the test over your rendered output with the following code,
 ```
 python run_dnerf.py --config configs/mutant.txt --render_only --render_test
 ```
 This command will run the `mutant` experiment. Remember to exchange this .txt if you chose another dataset. When finished, results are saved to `./logs/mutant/renderonly_test_799999`
-## Metrics
-Finally, to quantitatively evaluate model run the `metrics.py` file. Report your results in the report. 
+## Part 3: Metrics
+Finally, to quantitatively evaluate model run the `metrics.py` file. Report your results in the report and discuss about it. 
 
 ** Please, push your _.mp4_ files to the repository so that we can observe your qualitative results. **
 
