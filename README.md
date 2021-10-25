@@ -5,7 +5,7 @@ First of all you will be running the [NeRF](https://arxiv.org/pdf/2003.08934.pdf
 ## Part 0: Installation
 After cloning the repository, run the folowwing lines of code (you will be working in the pytorch environment): 
 ```
-cd nerf-pytorch
+cd NeRF
 conda activate pytorch
 pip install -r requirements.txt
 ```
@@ -51,7 +51,7 @@ For the bonus vary a hyperparameter of the NeRF architecture in the argparser (e
 Run the following commands:
 
 ```
-cd D-NeRF
+cd d-NeRF
 conda create -n dnerf python=3.6
 conda activate dnerf
 conda install pytorch torchvision cudatoolkit=10.2 -c pytorch
@@ -60,3 +60,14 @@ cd torchsearchsorted
 pip install .
 cd ..
 ```
+
+## Render Video
+First download the dataset. Then,
+```
+conda activate dnerf
+export PYTHONPATH='path/to/D-NeRF'
+export CUDA_VISIBLE_DEVICES=x
+python run_dnerf.py --config configs/mutant.txt
+```
+You can exchange the *mutant.txt* for the .txt file of your preference. Choose the object you would like to render and exists in the configs folder.
+
